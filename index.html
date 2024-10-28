@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test System</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>30 Savolli Test</h1>
+      <form id="quizForm">
+        <!-- Arifmetik va tengsizlik masalalari -->
+        <div class="question">
+          <p>1. a = 12, b = 5, c = (a * b) - (a / b). c ning qiymati nima?</p>
+          <input type="radio" name="q1" value="A" /> 56 <br />
+          <input type="radio" name="q1" value="B" /> 58 <br />
+          <input type="radio" name="q1" value="C" /> 60 <br />
+          <input type="radio" name="q1" value="D" /> 52 <br />
+        </div>
+      
+        <div class="question">
+          <p>2. x = 18, y = 6, z = x % y + y // 2. z ning qiymati nima?</p>
+          <input type="radio" name="q2" value="A" /> 3 <br />
+          <input type="radio" name="q2" value="B" /> 6 <br />
+          <input type="radio" name="q2" value="C" /> 9 <br />
+          <input type="radio" name="q2" value="D" /> 0 <br />
+        </div>
+      
+        <div class="question">
+          <p>3. Agar x = 5 va y = 10 bo'lsa, 2 * (y - x) ning qiymati nima?</p>
+          <input type="radio" name="q3" value="A" /> 8 <br />
+          <input type="radio" name="q3" value="B" /> 10 <br />
+          <input type="radio" name="q3" value="C" /> 5 <br />
+          <input type="radio" name="q3" value="D" /> 0 <br />
+        </div>
+      
+        <div class="question">
+          <p>4. x = -4, y = 3, z = x * y + y ** 2. z ning qiymati nima?</p>
+          <input type="radio" name="q4" value="A" /> -3 <br />
+          <input type="radio" name="q4" value="B" /> 5 <br />
+          <input type="radio" name="q4" value="C" /> 10 <br />
+          <input type="radio" name="q4" value="D" /> -9 <br />
+        </div>
+      
+        <!-- Boolean va shartli operatorlar -->
+        <div class="question">
+          <p>5. x = 12. Agar x % 3 == 0 va x % 4 == 0 bo'lsa, x qanday?</p>
+          <input type="radio" name="q5" value="A" /> Juft va 3 ga bo'linadi <br />
+          <input type="radio" name="q5" value="B" /> Toq va 3 ga bo'linadi <br />
+          <input type="radio" name="q5" value="C" /> Juft va 4 ga bo'linmaydi <br />
+          <input type="radio" name="q5" value="D" /> Toq va 4 ga bo'linadi <br />
+        </div>
+      
+        <div class="question">
+          <p>6. x = -7. Agar x < 0 va x % 2 != 0 bo'lsa, x qanday?</p>
+          <input type="radio" name="q6" value="A" /> Musbat va juft <br />
+          <input type="radio" name="q6" value="B" /> Musbat va toq <br />
+          <input type="radio" name="q6" value="C" /> Manfiy va juft <br />
+          <input type="radio" name="q6" value="D" /> Manfiy va toq <br />
+        </div>
+      
+        <div class="question">
+          <p>7. Agar a = 15, b = 4, a % b != 0 bo'lsa, a va b qanday?</p>
+          <input type="radio" name="q7" value="A" /> Katta va bo'linadi <br />
+          <input type="radio" name="q7" value="B" /> Katta va bo'linmaydi <br />
+          <input type="radio" name="q7" value="C" /> Kichik va bo'linadi <br />
+          <input type="radio" name="q7" value="D" /> Kichik va bo'linmaydi <br />
+        </div>
+      
+        <div class="question">
+          <p>8. Agar x = 25 va x > 20 bo'lsa, u qanday son?</p>
+          <input type="radio" name="q8" value="A" /> 20 dan katta <br />
+          <input type="radio" name="q8" value="B" /> 20 ga teng <br />
+          <input type="radio" name="q8" value="C" /> 20 dan kichik <br />
+          <input type="radio" name="q8" value="D" /> Nolga teng <br />
+        </div>
+      
+        <!-- Sikl masalalari -->
+        <div class="question">
+          <p>9. for i in range(3, 12, 3) sikli nechta sonni chiqaradi?</p>
+          <input type="radio" name="q9" value="A" /> 2 <br />
+          <input type="radio" name="q9" value="B" /> 3 <br />
+          <input type="radio" name="q9" value="C" /> 4 <br />
+          <input type="radio" name="q9" value="D" /> 5 <br />
+        </div>
+      
+        <div class="question">
+          <p>10. for i in range(5, 21, 5): i ning oxirgi qiymati nima bo'ladi?</p>
+          <input type="radio" name="q10" value="A" /> 15 <br />
+          <input type="radio" name="q10" value="B" /> 20 <br />
+          <input type="radio" name="q10" value="C" /> 25 <br />
+          <input type="radio" name="q10" value="D" /> 10 <br />
+        </div>
+      
+        <div class="question">
+          <p>11. for i in range(1, 10): i + 2 har safar chiqarsa, oxirgi natija nima?</p>
+          <input type="radio" name="q11" value="A" /> 10 <br />
+          <input type="radio" name="q11" value="B" /> 11 <br />
+          <input type="radio" name="q11" value="C" /> 12 <br />
+          <input type="radio" name="q11" value="D" /> 13 <br />
+        </div>
+      
+        <div class="question">
+          <p>12. x = 1, while x &lt; 20: x = x * 2 sikli necha marta aylanadi?</p>
+          <input type="radio" name="q12" value="A" /> 2 <br />
+          <input type="radio" name="q12" value="B" /> 3 <br />
+          <input type="radio" name="q12" value="C" /> 4 <br />
+          <input type="radio" name="q12" value="D" /> 5 <br />
+        </div>
+      
+        <!-- Murakkab shartli ifodalar -->
+        <div class="question">
+          <p>13. Agar x = 16, y = 3 bo'lsa, (x > y) va (x % y != 0) sharti to'g'rimi?</p>
+          <input type="radio" name="q13" value="A" /> Ha <br />
+          <input type="radio" name="q13" value="B" /> Yo'q <br />
+        </div>
+      
+        <div class="question">
+          <p>14. a = 5, b = 3, c = 2. Agar (a * c) >= (b + c) bo'lsa, bu to'g'ri:</p>
+          <input type="radio" name="q14" value="A" /> Ha <br />
+          <input type="radio" name="q14" value="B" /> Yo'q <br />
+        </div>
+
+        <div class="question">
+          <p>15. Agar n = 3 va m = 5 bo'lsa, quyidagi ifoda qaysi shartda to'g'ri bo'ladi: (n ** m) % 4 == 3?</p>
+          <input type="radio" name="q15" value="A" /> n = 3, m = 5 bo'lsa <br />
+          <input type="radio" name="q15" value="B" /> n = 4, m = 3 bo'lsa <br />
+          <input type="radio" name="q15" value="C" /> n = 5, m = 3 bo'lsa <br />
+          <input type="radio" name="q15" value="D" /> n = 2, m = 4 bo'lsa <br />
+      </div>
+      
+
+        <div class="question">
+          <p>16. Agar x = 7, y = 2 bo'lsa, (x ** y) - (y ** x) ning qiymati nima?</p>
+          <input type="radio" name="q16" value="A" /> 45 <br />
+          <input type="radio" name="q16" value="B" /> 49 <br />
+          <input type="radio" name="q16" value="C" /> 47 <br />
+          <input type="radio" name="q16" value="D" /> 50 <br />
+        </div>
+      
+        <div class="question">
+          <p>17. a = 4, b = 16, a va bning GCD (eng katta umumiy bo'luvchi) nima?</p>
+          <input type="radio" name="q17" value="A" /> 4 <br />
+          <input type="radio" name="q17" value="B" /> 16 <br />
+          <input type="radio" name="q17" value="C" /> 8 <br />
+          <input type="radio" name="q17" value="D" /> 2 <br />
+        </div>
+      
+        <div class="question">
+          <p>18. Agar x = 3 va y = 7 bo'lsa, x * y + x ** y ning qiymati nima?</p>
+          <input type="radio" name="q18" value="A" /> 2304 <br />
+          <input type="radio" name="q18" value="B" /> 2187 <br />
+          <input type="radio" name="q18" value="C" /> 2364 <br />
+          <input type="radio" name="q18" value="D" /> 2188 <br />
+        </div>
+      
+        <div class="question">
+          <p>19. for i in range(2, 10, 2): i * i oxirgi natija nima bo'ladi?</p>
+          <input type="radio" name="q19" value="A" /> 36 <br />
+          <input type="radio" name="q19" value="B" /> 64 <br />
+          <input type="radio" name="q19" value="C" /> 100 <br />
+          <input type="radio" name="q19" value="D" /> 49 <br />
+        </div>
+      
+        <div class="question">
+          <p>20. Agar x = 9 va y = 6 bo'lsa, x // y ning qiymati nima?</p>
+          <input type="radio" name="q20" value="A" /> 1 <br />
+          <input type="radio" name="q20" value="B" /> 3 <br />
+          <input type="radio" name="q20" value="C" /> 0 <br />
+          <input type="radio" name="q20" value="D" /> 6 <br />
+        </div>
+      
+        <div class="question">
+          <p>21. x = 5, y = 5. Agar x == y bo'lsa, natija nima?</p>
+          <input type="radio" name="q21" value="A" /> True <br />
+          <input type="radio" name="q21" value="B" /> False <br />
+        </div>
+      
+        <div class="question">
+          <p>22. Agar a = 5, b = 4 bo'lsa, (a + b) * (a - b) = ?</p>
+          <input type="radio" name="q22" value="A" /> 9 <br />
+          <input type="radio" name="q22" value="B" /> 1 <br />
+          <input type="radio" name="q22" value="C" /> 20 <br />
+          <input type="radio" name="q22" value="D" /> 25 <br />
+        </div>
+      
+        <div class="question">
+          <p>23. for i in range(4): 3 + i oxirgi natija nima bo'ladi?</p>
+          <input type="radio" name="q23" value="A" /> 4 <br />
+          <input type="radio" name="q23" value="B" /> 5 <br />
+          <input type="radio" name="q23" value="C" /> 7 <br />
+          <input type="radio" name="q23" value="D" /> 6 <br />
+        </div>
+      
+        <div class="question">
+          <p>24. Agar x = 4 va y = 2 bo'lsa, (x ** y) // y natija nima bo'ladi?</p>
+          <input type="radio" name="q24" value="A" /> 8 <br />
+          <input type="radio" name="q24" value="B" /> 4 <br />
+          <input type="radio" name="q24" value="C" /> 16 <br />
+          <input type="radio" name="q24" value="D" /> 2 <br />
+        </div>
+      
+        <div class="question">
+          <p>25. x = 2, y = 3. Agar x ** y == y ** x bo'lsa, natija nima?</p>
+          <input type="radio" name="q25" value="A" /> True <br />
+          <input type="radio" name="q25" value="B" /> False <br />
+        </div>
+      
+        <div class="question">
+          <p>26. for i in range(10): i + 5 oxirgi natija nima bo'ladi?</p>
+          <input type="radio" name="q26" value="A" /> 14 <br />
+          <input type="radio" name="q26" value="B" /> 15 <br />
+          <input type="radio" name="q26" value="C" /> 18 <br />
+          <input type="radio" name="q26" value="D" /> 19 <br />
+        </div>
+      
+        <div class="question">
+          <p>27. Agar a = 3 va b = 9 bo'lsa, b % a ning qiymati nima?</p>
+          <input type="radio" name="q27" value="A" /> 0 <br />
+          <input type="radio" name="q27" value="B" /> 1 <br />
+          <input type="radio" name="q27" value="C" /> 3 <br />
+          <input type="radio" name="q27" value="D" /> 9 <br />
+        </div>
+      
+        <div class="question">
+          <p>28. x = 7 va y = 5. Agar x > y yoki y < 2 bo'lsa, natija nima?</p>
+          <input type="radio" name="q28" value="A" /> True <br />
+          <input type="radio" name="q28" value="B" /> False <br />
+        </div>
+      
+        <div class="question">
+          <p>29. for i in range(3): i + i oxirgi natija nima bo'ladi?</p>
+          <input type="radio" name="q29" value="A" /> 2 <br />
+          <input type="radio" name="q29" value="B" /> 4 <br />
+          <input type="radio" name="q29" value="C" /> 6 <br />
+          <input type="radio" name="q29" value="D" /> 8 <br />
+        </div>
+      
+        <div class="question">
+          <p>30. Agar a = 8, b = 3 bo'lsa, (a // b) + (a % b) ning qiymati nima?</p>
+          <input type="radio" name="q30" value="A" /> 4 <br />
+          <input type="radio" name="q30" value="B" /> 5 <br />
+          <input type="radio" name="q30" value="C" /> 6 <br />
+          <input type="radio" name="q30" value="D" /> 7 <br />
+        </div>
+      
+        <input type="submit" value="Submit" />
+      </form>
+      <div id="result"></div>
+      <div id="detailedResult"></div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
